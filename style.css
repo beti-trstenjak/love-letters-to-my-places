@@ -1,0 +1,311 @@
+body {
+    background-color: #FFE0E0;
+}
+
+
+h1 {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #990000;
+    margin-left: 50px;
+}
+
+h2 {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: #990000;
+    margin-left: 430px;
+    margin-top: -80px;
+}
+
+p {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #990000;
+}
+
+a {
+    color: #990000;
+}
+
+a:hover {
+    color:#e87676;
+    transition: 0.3s;
+}
+
+.overlay:hover {
+    opacity: 0.6;
+}
+
+.puscica:hover {
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+
+
+/* desktop */
+@media screen and (min-width: 1210px){
+    h1 {
+        font-size: 7em;
+    }
+    
+    p {
+        font-size: 14pt;
+    }
+
+    .maribor {
+        padding-top: 100px;
+        margin-left: 50px;
+    }
+    
+    #header-page {
+        height: 300px;
+        float: left;
+        width: 100%;
+    }
+    
+    #header-index {
+        height: 300px;
+        float: left;
+        width: 60%;
+    }
+    
+    #header-index-2 {
+        height: 400px;
+        float: left;
+        width: 40%;
+    }
+    
+    #index-body-1 {
+        float:left;
+        height: 300px;
+        width: 30%;
+        margin-top: -100px;
+    }
+    
+    #index-body-2 {
+        float:left;
+        height: 500px;
+        width: 30%;
+        margin-top: -100px;
+    }
+    
+    #index-body-3 {
+        float:left;
+        height: 500px;
+        width: 40%;
+    }
+    
+    #index-body-4 {
+        float:left;
+        height: 400px;
+        margin-top: -300px;
+        width: 35%;
+    }
+    
+    #index-body-5 {
+        float:left;
+        height: 400px;
+        margin-top: -200px;
+        width: 30%;
+    }
+    
+    #index-body-6 {
+        float:left;
+        height: 300px;
+        width: 35%;
+    }
+    
+    #letter-text {
+        width: 60%;
+        float: left;
+    }
+    
+    .lettertext {
+        margin-left: 200px;
+        margin-right: 100px;
+        float: left;
+    }
+    
+    #letter-image {
+        width: 40%;
+        float: left;
+    }
+    
+    .letter-image-single {
+        padding-top: 2%;
+    }
+    
+    #footer {
+        height: 150px;
+        margin-top: 50px;
+        float: left;
+        width: 100%;
+    }
+    
+    .footer-text {
+        font-size: 12pt;
+        margin-left: 50px;
+    }
+    
+    .vienna {
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+    
+    .prague {
+        margin-left: 150px;
+        margin-top: 100px;
+    }
+    
+    .budapest {
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+    
+    .istria {
+        margin-top: 100px;
+    }
+    
+    .ikonaheader {
+        padding-top: 100px; 
+        padding-left: 80px; 
+        float:left;
+    }
+    
+    .naslovheader {
+        margin-left: 200px;
+    }
+
+    .puscica {
+        float: left; 
+        margin-left: 50px; 
+        margin-top: 120px;
+        padding-right: 5%;
+    }
+    
+  }
+
+
+/* tablets */
+@media screen and (max-width: 1209px){
+    h1 {
+        font-size: 5em;
+        margin-left: 0;
+    }
+
+    body {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    p {
+        font-size: 2em;
+    }
+
+    .ikonaheader {
+        margin-left: 45%;
+        margin-top: 5%;
+    }
+
+    .naslovheader {
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .podnaslovheader {
+        margin-left: 0;
+        text-align: center;
+        padding-top: 30;
+
+    }
+    
+    .puscica {
+        margin-left: 40%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .letter-image-single {
+        padding-bottom: 5%;
+        margin-left: 15%;
+    }
+    
+    .maribor, .ljubljana, .vienna, .prague, .budapest, .istria, .amsterdam {
+        float: left;
+        padding: 10px;
+        padding-top: 30px;
+        margin-left: 3%;
+    }
+
+    .footer-text {
+        float: left;
+        font-size: 1.5em;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .stevilkaslike {
+        text-align:center;
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+}
+
+
+/* mobile */
+@media screen and (max-width: 640px){
+    .ikonaheader {
+        float: left;
+        margin-left: 35%;
+        margin-top: 5%;
+    }
+
+    #letter-text {
+        width: 100%;
+        float: left;
+    }
+    
+    .lettertext {
+        font-size: 1.5em;
+        margin-left: 100px;
+        margin-right: 100px;
+        float: left;
+    }
+
+    .stevilkaslike {
+        text-align:center;
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+
+    #letter-image {
+        width: 100%;
+        float: left;
+    }
+    
+    .letter-image-single {
+        padding-top: 5%;
+    }
+
+    .naslovheader {
+        text-align: center;
+        float: left;
+        margin-left: 5%;
+    }
+
+    .podnaslovheader {
+        text-align: center;
+        float: left;
+        margin-left: 18%;
+    }
+
+
+
+  }
+
