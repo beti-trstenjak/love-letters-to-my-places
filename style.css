@@ -255,6 +255,7 @@ a:hover {
         margin-top: 0;
         margin-bottom: 50px;
     }
+
 }
 
 
@@ -297,6 +298,7 @@ a:hover {
         text-align: center;
         float: left;
         margin-left: 5%;
+        font-size: 3em;
     }
 
     .podnaslovheader {
@@ -304,8 +306,6 @@ a:hover {
         float: left;
         margin-left: 18%;
     }
-
-
 
   }
 
