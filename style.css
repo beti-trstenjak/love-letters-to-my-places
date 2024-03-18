@@ -47,7 +47,6 @@ a:hover {
 }
 
 
-
 /* desktop */
 @media screen and (min-width: 1210px){
     h1 {
@@ -73,6 +72,15 @@ a:hover {
         height: 300px;
         float: left;
         width: 60%;
+    }
+
+    #menubar {
+        width: 100%;
+        text-align: center;
+    }
+
+    .menubartext {
+        margin-top: 60px;
     }
     
     #header-index-2 {
@@ -224,9 +232,17 @@ a:hover {
         padding-top: 30;
 
     }
+
+    .menubartext {
+        font-size: 3em;
+        text-align: right;
+        padding-top: 60px;
+        padding-right: 30px;
+
+    }
     
     .puscica {
-        margin-left: 40%;
+        margin-left: 5%;
         margin-top: 10%;
         margin-bottom: 10%;
     }
@@ -298,7 +314,7 @@ a:hover {
         text-align: center;
         float: left;
         margin-left: 5%;
-        font-size: 3em;
+        font-size: 5em;
     }
 
     .podnaslovheader {
