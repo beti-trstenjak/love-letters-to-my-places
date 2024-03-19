@@ -286,6 +286,7 @@ a:hover {
     #letter-text {
         width: 100%;
         float: left;
+        font-size: 3em;
     }
     
     .lettertext {
